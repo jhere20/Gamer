@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PLAYERUNKNOWN'S BATTLEGROUNDS</title>
+    <link rel="stylesheet" href="./css/estyle pubg.css">
+    <link rel="stylesheet" href="./css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="./css/materialize.min.css">
+</head>
+<body>
+    <header>
+        <nav class="white">
+                <div class="row center">
+                    <div class="col-xs-6">PLAYERUNKNOWN'S BATTLEGROUNDS - DOWNLOAD</div>
+                    <div class="col-xs-6"><a href="Index.html"><img src="./Imagenes/logo comunidad gamer oficial.png" alt=""></a></div>
+
+                </div>
+        </nav>
+
+        <h1>DOWNLOAD PLAYERUNKNOWN'S BATTLEGROUNDS</h1>
+        <br />
+        <h2>ACERCA DE ESTE JUEGO</h2>
+        <p class="parrafo">PLAYERUNKNOWN’S BATTLEGROUNDS es un shooter basado en el modo Battle Royale <br/> que está siendo desarrollado a través de la retroalimentación con la comunidad. <br/>
+        Comenzando de la nada, los usuarios tienen que luchar uno contra el otro para localizar armas <br/> y suministros para ser el único sobreviviente.
+        Este juego realista de alta tensión se establece <br/> en una isla masiva de 8x8 km con un nivel de detalle que muestra las capacidades de Unreal Engine 4.</p>
+        <p class="parrafo">Como creador del modo de juego Battle Royale de las series ARMA y H1Z1: King of the Kill, Greene está <br/> desarrollando el juego conjuntamente con un equipo veterano de la empresa Bluehole para crear la más <br /> diversa y robusta experiencia de Battle Royale hasta la fecha
+         No solo un juego. Esto es BATTLE ROYALE.</p>
+        <br />    
+
+    </header>   
+    <br/>
+    <br/>
+
+    <div class="unidad">
+            <div class="row center">
+            <div class="col-xs-6">Requisito mínimos del sistema</div>
+            <div class="col-xs-6">Requisitos recomendados del sistema</div>
+            </div>
+     </div>
+
+     <div class="segunda">
+            <div class="row center">
+                <div class="col-xs-6"><b>Requiere un procesador y un sistema operativo de 64 bits <br />
+                SO: 64-bit Windows 7, Windows 8.1, Windows 10 <br />
+                Procesador: Intel Core i5-4430 / AMD FX-6300<br />
+                Memoria: 8 GB de RAM<br />
+                Gráficos: NVIDIA GeForce GTX 960 2GB / AMD Radeon R7 370 2GB<br />
+                DirectX: Versión 11<br />
+                Red: Conexión de banda ancha a Internet<br />
+                Almacenamiento: 30 GB de espacio disponible</b></div>
+    
+            
+            <div class="col-xs-6">
+                <div class="tercero"><b>Requiere un procesador y un sistema operativo de 64 bits <br />
+                SO: 64-bit Windows 7, Windows 8.1, Windows 10 <br />
+                Procesador: Intel Core i5-6600K / AMD Ryzen 5 1600 <br />
+                Memoria: 16 GB de RAM <br />
+                Gráficos: NVIDIA GeForce GTX 1060 3GB / AMD Radeon RX 580 4GB <br />
+                DirectX: Versión 11 <br />
+                Red: Conexión de banda ancha a Internet <br />
+                Almacenamiento: 30 GB de espacio disponible</div> <br /></b>
+                </div>
+            </div>
+    </div> 
+
+
+		<div class="row">
+			<input type="text" value="Link de descarga" id="txt">
+			<hr />
+			<input type="submit" value="Obtener link" onclick="dibujar()" class="btn">
+		</div>
+		<div class="row">
+            <a href="https://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/" target="_blank">
+            <canvas id="lienzo" width="510" height="150"></canvas>
+            </a>
+		</div>
+	</section>
+	<script>
+		function dibujar () {
+			var element = document.getElementById('lienzo');
+			var ctx = element.getContext('2d');
+			var texto = document.getElementById('txt');
+			ctx.clearRect(5,5,element.width,element.height);
+			ctx.font = "50px arial";
+			ctx.fillStyle ="#000";
+			ctx.strokeText(texto.value,element.width/4,element.height/4);
+			ctx.fillText(texto.value,element.width/4,element.height/4);
+		}
+	</script>
+
+<footer class="black">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">©2019 PUBG CORPORATION. ALL RIGHTS RESERVED</h5>
+              <p class="grey-text text-lighten-4">PLAYERUNKNOWN’S BATTLEGROUNDS and PUBG are registered trademarks, trademarks or service marks of PUBG CORPORATION.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Términos de servicio</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Política de privacidad </a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Reglas de conducta</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Contenido creado por el usuario</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2014 Copyright Text
+          </div>
+        </div>
+      </footer>
+
+</body>
+</html>

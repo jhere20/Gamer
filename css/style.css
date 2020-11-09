@@ -1,0 +1,247 @@
+* {
+	margin:0;
+	padding:0; 
+}
+
+header {
+	margin-top:10px;
+	width:100%;
+	height:65vh;
+	overflow:hidden;
+	position:relative;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-size: cover;
+	background-position: center;
+	background-color: rgb(90, 90, 90);
+	background-blend-mode: soft-light;
+	background-image: url(../Imagenes/H2x1_NSwitch_SuperSmashBrosUltimate_02_image1600w.jpg) 
+}
+
+nav	{
+	top:-20px;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:20px auto;
+	width:100%;
+	/*width:90%;*/
+	/*max-width:1000px;*/
+}
+
+nav ul {
+	list-style:none;
+}
+
+nav > ul {
+	display:table; 
+	width:100%;
+	background:#000;
+	position:relative;
+}
+
+nav > ul li {
+	display:table-cell;
+}
+
+/*sub menu*/ 
+
+nav > ul > li:hover > ul {
+	display:block;
+	height:100%;
+}
+
+nav > ul > li > ul {
+	display:block;
+	position:absolute;
+	background:#000;
+	left:0;
+	right:0;
+	overflow:hidden;
+	height:0%;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease
+
+}
+
+nav > ul li a {
+	color:#fff;
+	display:block;
+	line-height:20px;
+	padding:20px;
+	position:relative;
+	text-align:center;
+	text-decoration:none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;	
+}
+
+nav > ul > li > ul > li a:hover {
+	background:#5da5a2;
+
+}
+
+nav > ul > li > a span {
+	background:#174459;
+	display:block;
+	height:100%;
+	width:100%;
+	left:0%;
+	position:absolute;
+	top:-55px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;	
+}
+
+nav > ul > li > a span .fas {
+	display:block;
+	line-height:60px;
+}
+
+nav > ul > li > a:hover > span {
+	top:0;
+}
+
+/*cores*/
+nav ul li a .primero {
+	background:#246D8B;
+}
+
+nav ul li a .tercero {
+	background:#4BAAC2;
+}
+
+nav ul li a .segundo {
+	background:#1BB483;
+}
+
+nav ul li a .cuarto {
+	background:#892222;
+}
+
+nav ul li a .quinto {
+	background:#205CB2;
+}
+
+* {
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.social {
+	position:fixed;
+	left:0;
+	top:200px;
+	z-index:2000;
+}
+
+.social ul {
+	list-style:none;
+}
+
+.social ul li a {
+	display:inline-block;
+	color:#fff;
+	background:#000;
+	padding:10px 15px;
+	text-decoration:none;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+.social ul li .icon-facebook {background:#3b5998;}
+.social ul li .icon-twitter {background:#00abf0;}
+.social ul li .icon-mail {background:#666666;}
+.social ul li .icon-pinterest {background:#ae181f;}
+
+.social ul li a:hover {
+	padding:10px 30px;
+	background:#000;
+}
+
+body {
+	font-family:arial;
+	background-image:url(../Imagenes/Fondo\ web5.jpg)
+}  
+
+.contenedor {
+	width:79%; 
+	margin:25px auto;
+}
+
+.elemento {
+	width:400px;
+	background:#000;
+	float:left;
+	margin-right:15px;
+	margin-bottom:15px;
+	box-shadow:0 1px 20px 0 rgba(0,0,0,0.22);
+	color:#A0A0A0;
+
+}
+
+.elemento p {
+	padding:10px;
+	font-size:13px;
+}
+
+.elemento img {
+	width:100%;
+}
+
+.elemento b p {
+	font-size:20px;
+	color:#fff;
+}
+
+footer {
+	background:#000;
+	color:#fff;
+	padding:10px 0px;
+	text-align:center;
+	font-size:50px;
+	font-family:CopprplGoth Bd BT; 
+}
+
+.elemento a {
+	text-decoration:none;
+	color:#A0A0A0;
+}
+
+.portada img {
+	width:25%
+}
+
+.elemento:hover{
+	transition: 1s;
+	transform: scale(0.9);
+}
+
+.novedad p {
+	color: #fff;
+	width:79%;
+	margin:25px auto;
+	font-size:30px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h1 {
+	font-family: CopprplGoth Bd BT;
+	font-size: 100px;
+}

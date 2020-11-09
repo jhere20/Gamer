@@ -1,0 +1,58 @@
+nav div {
+    color: #000;
+    font-family: CopprplGoth Bd BT;
+    font-size: 20px;
+}
+
+nav div img {
+    width:100px;
+    height:80px;
+    background: rgb(124, 214, 255)
+}
+
+header {
+    height:80vh;
+    width:100%;
+    background-image: url(../Imagenes/pubg\ page.jpg)
+}
+
+header h1 {
+    color:#fff;
+    text-align: center;
+    font-size: 40px;
+    font-family: Aachen BT;
+}
+
+header h2 {
+    color: #fff;
+    text-align: left;
+    font-size: 30px;
+    margin: 40px;
+}
+
+.parrafo {
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
+    margin: 40px;
+}
+
+header .requisitos h2 {
+    color: rgb(255, 153, 0);
+    font-size: 30px;
+}
+
+body {
+    background: #fff;
+    color: #000;
+}
+
+.unidad {
+    font-size: 30px;
+}
+
+.segunda div {
+    font-size: 15px;
+    text-align: center;
+}
+
